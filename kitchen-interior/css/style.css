@@ -130,7 +130,7 @@ section{padding: 7.5rem 0;}
 ====================================== */
 
 header a.logo img {
-    max-width: 180px;
+    max-width: 200px;
 }
 
 .navbar-top-default{
@@ -231,7 +231,7 @@ header a.logo img {
     position: fixed;
     right: 0;
     top: 0;
-    background: #26313c;
+    background: #ffffff;
     z-index: 1032;
     height: 100%;
     -webkit-transform: translate3d(100%, 0, 0);
@@ -340,17 +340,17 @@ header a.logo img {
     display: inline-block;
 }
 
-.sidemenu_btn span {
-    height: 2px;
-    width: 100%;
-    background: #ffffff;
-    display: block;
-    margin-left: auto;
-    transition: .5s ease;
-}
+    .sidemenu_btn span {
+        height: 2px;
+        width: 100%;
+        background: #26313c;
+        display: block;
+        margin-left: auto;
+        transition: .5s ease;
+    }
 
 .header-appear .sidemenu_btn span {
-    background: #ffffff;
+    background: #26313c;
 }
 
 .sidemenu_btn span:nth-child(2) {
@@ -457,7 +457,7 @@ header a.logo img {
 
 .side-nav .navbar-nav .nav-link {
     display: inline-table;
-    color: #ffffff;
+    color: #26313c;
     padding: 2px 0 3px 0 !important;
     font-size: 20px;
     font-weight: normal;
@@ -593,7 +593,7 @@ header a.logo img {
 
 .heading-area .heading {
     font-size: 36px;
-    color: #f3f6f4;
+    color: #36a837;
     font-weight: 600;
     margin: 25px 0;
     font-family: 'Montserrat', sans-serif;
@@ -1640,7 +1640,7 @@ audio, video, canvas {
 
     /* Nav */
     .navbar-top-default {
-        background: #26313c;
+        background: #ffffff;
         top: 0;
     }
     .navigation-toggle span {
@@ -1820,7 +1820,7 @@ audio, video, canvas {
         border-radius: 0;
     }
     .navbar-top-default {
-        background: #26313c;
+        background: #ffffff;
         top: 0;
         height: 80px;
     }
