@@ -54,7 +54,6 @@
                     <div class="navbar-nav ml-auto">
                         <a class="nav-link scroll line" href="#slider">Home</a>
                         <a class="nav-link scroll line" href="#about">About Us</a>
-                        <a class="nav-link scroll line" href="#services">Our Services</a>
                         <a class="nav-link scroll line" href="#portfolio">Portfolio</a>
                         <a class="nav-link scroll line" href="#testimonials">Client Reviews</a>
                         <a class="nav-link scroll line" href="#contact">Contact Us</a>
@@ -92,9 +91,7 @@
                         <li class="nav-item">
                             <a class="nav-link scroll" href="#about">About Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="#services">Our Services</a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link scroll" href="#portfolio">Portfolio</a>
                         </li>
@@ -250,7 +247,11 @@
                     <div class="quote-btn">
                         <p>Transform your space with Nalex</p>
                         <h4>Let us build your dream home!</h4>
-                        <a href="kitchen-interior/standalone.html" class="btn btn-medium btn-rounded btn-green">Learn More</a>
+                        <!-- Calendly link widget begin -->
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                        <a href="" class="btn btn-medium btn-rounded btn-green" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nalex-info/30min?hide_event_type_details=1&hide_gdpr_banner=1'});return false;">Schedule time with us</a>
+                        <!-- Calendly link widget end -->
                     </div>
                 </div>
             </div>
@@ -295,7 +296,7 @@
             <div class="row wow fadeInUp">
                 <div class="col-md-12">
                     <!--Portfolio Filters-->
-                    <div id="js-filters-mosaic-flat" class="cbp-l-filters-button text-center">
+                    <!--<div id="js-filters-mosaic-flat" class="cbp-l-filters-button text-center">
                         <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
                         <span class="text-blue">/</span>
                         <div data-filter=".kitchen" class="cbp-filter-item">Kitchens</div>
@@ -305,7 +306,7 @@
                         <div data-filter=".living-room" class="cbp-filter-item">Living Rooms</div>
                         <span class="text-blue"> / </span>
                         <div data-filter=".renovation" class="cbp-filter-item">Home Renovations</div>
-                    </div>
+                    </div>-->
 
                     <!--Portfolio Items-->
                     <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat">
@@ -538,16 +539,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">-->
-                    <!--Client Slider-->
-                    <!--<div class="owl-carousel partners-slider">-->
-                        <!--Item-->
-                        <!--<div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-1.png"></div>-->
-                        <!--Item-->
-                        <!--<div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-2.png"></div>-->
-                        <!--Item-->
-                        <!--<div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-3.png"></div>-->
-                        <!--Item-->
-                        <!--<div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-4.png"></div>
+    <!--Client Slider-->
+    <!--<div class="owl-carousel partners-slider">-->
+    <!--Item-->
+    <!--<div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-1.png"></div>-->
+    <!--Item-->
+    <!--<div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-2.png"></div>-->
+    <!--Item-->
+    <!--<div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-3.png"></div>-->
+    <!--Item-->
+    <!--<div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-4.png"></div>
                     </div>
                 </div>
             </div>
@@ -557,8 +558,8 @@
     <!-- Start Map -->
     <!--<div class="p-0 bg-light-black map-area">
         <div class="container">-->
-            <!--Map Initialize-->
-            <!--<div class="full-map" id="map"></div>
+    <!--Map Initialize-->
+    <!--<div class="full-map" id="map"></div>
         </div>
     </div>-->
     <!-- End Map -->
@@ -570,36 +571,14 @@
                     <!--Heading-->
                     <div class="heading-area pb-2">
                         <h2 class="heading">Let’s Get In Touch</h2>
+                        <p>Select a date to book a call</p>
                     </div>
                     <!--Contact Form-->
-                    <form class="contact-form" id="contact-form-data">
-                        <div class="row">
-                            <!--Result-->
-                            <div class="col-12" id="result"></div>
-                            <!--Left Column-->
-                            <div class="col-md-5">
-                                <div class="form-group">
-                                    <input class="form-control" id="your_name" name="userName" placeholder="Your Name" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="your_email" name="userEmail" placeholder="Email Address" type="email">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="subject" name="userSubject" placeholder="Subject" type="text">
-                                </div>
-                            </div>
-                            <!--Right Column-->
-                            <div class="col-md-7">
-                                <div class="form-group">
-                                    <textarea class="form-control" id="message" name="userMessage" placeholder="Your Message"></textarea>
-                                </div>
-                            </div>
-                            <!--Button-->
-                            <div class="col-md-12">
-                                <a href="javascript:void(0);" class="btn btn-medium btn-rounded btn-green w-100 contact_btn main-font mt-4">Send Message</a>
-                            </div>
-                        </div>
-                    </form>
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/nalex-info/30min?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:350px;height:760px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+                    <!-- Calendly inline widget end -->
                 </div>
             </div>
         </div>
